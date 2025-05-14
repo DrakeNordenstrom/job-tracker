@@ -18,8 +18,11 @@ A simple full-stack app for tracking job applications, built with:
 ## Project Structure
 
 job-tracker/
+
 ├── client/ # React frontend
+
 ├── server/ # Express backend with SQLite
+
 └── README.md
 
 
@@ -32,17 +35,25 @@ job-tracker/
 ### Install and Run
 
 1. Clone repo
+   
 git clone https://github.com/DrakeNordenstrom/job-tracker.git
+
 cd job-tracker
 
 2. Start backend
+
 cd server
+
 npm install
+
 node index.js
 
 3. Start frontend
+   
 cd ../client
+
 npm install
+
 npm run dev
 
-Open browser at https://localhost:PORT
+4. Open browser at https://localhost:PORT
