@@ -11,9 +11,9 @@ A simple full-stack app for tracking job applications, built with:
 ✅ Add job applications  
 ✅ Track status (Applied, Interviewing, Offer, Rejected)  
 ✅ Store company, title, date applied, notes  
-⬜ Display jobs in a list (in progress)  
-⬜ Edit and delete entries  
-⬜ Filter/search jobs
+✅ Display jobs in a list 
+✅ Edit and delete entries  
+✅ Filter/search jobs
 
 ## Project Structure
 
