@@ -35,6 +35,8 @@ export default function JobForm() {
           date_applied: '',
           notes: '',
         });
+        //refresh line
+        //if (onAdd) onAdd();
       } else {
         alert('Failed to save job.');
       }
