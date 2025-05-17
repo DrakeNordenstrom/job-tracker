@@ -2,9 +2,9 @@
 
 A simple full-stack app for tracking job applications, built with:
 
-- ⚛️ React + Vite (frontend)
-- 🚀 Express.js (backend)
-- 🗃️ SQLite (database)
+-  React + Vite (frontend)
+-  Express.js (backend)
+-  SQLite (database)
 
 ## Features
 
