@@ -27,7 +27,7 @@ export default function JobForm() {
       if (res.ok) {
         const data = await res.json();
         console.log('Job saved:', data);
-        alert('Job application added!');
+        //alert('Job application added!');
         setFormData({
           company: '',
           title: '',
@@ -35,8 +35,8 @@ export default function JobForm() {
           date_applied: '',
           notes: '',
         });
-        //refresh line
-        //if (onAdd) onAdd();
+        //fetchJobs();
+        window.location.reload();
       } else {
         alert('Failed to save job.');
       }

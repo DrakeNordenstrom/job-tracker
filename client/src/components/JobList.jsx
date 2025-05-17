@@ -48,11 +48,11 @@ export default function JobList() {
   };
 
   return (
-    <div>
+    <div className="app-container">
       <h2>Job Applications</h2>
   
       {/*FILTER & SORT CONTROLS*/}
-      <div style={{ marginBottom: '1rem' }}>
+      <div className="job-list-content" style={{ marginBottom: '1rem' }}>
         <label>
           Filter by Status:
           <select value={filterStatus} onChange={(e) => setFilterStatus(e.target.value)}>

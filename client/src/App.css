@@ -29,3 +29,21 @@ form {
   width: 90%;
   max-width: 400px;
 }
+
+.app-container {
+  text-align: center;
+  justify-content: center; /* Center horizontally */
+  align-items: flex-start;
+  padding: 2rem;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.content {
+  width: 100%;
+  max-width: 700px;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
