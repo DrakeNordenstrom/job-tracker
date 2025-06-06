@@ -19,11 +19,11 @@ A simple full-stack app for tracking job applications, built with:
 
 job-tracker/
 
-├── client/ # React frontend
+- client/ # React frontend
 
-├── server/ # Express backend with SQLite
+- server/ # Express backend with SQLite
 
-└── README.md
+- README.md
 
 
 ## Getting Started
