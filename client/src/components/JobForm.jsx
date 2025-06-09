@@ -48,7 +48,7 @@ export default function JobForm() {
 
   return (
     <form onSubmit={handleSubmit}>
-      <h2>Add Job Application</h2>
+      <h2>Job Info</h2>
 
       <input
         type="text"

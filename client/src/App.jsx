@@ -5,7 +5,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <h1>Job Tracker</h1>
+      <h1>Drake Nordenstrom's Job Application Tracker</h1>
       <JobForm />
       <hr />
       <JobList />
